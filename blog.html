@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Tivotal</title>
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+  <!--css file-->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- header section starts  -->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="">
+    </a>
+
+    <form action="" class="search-form">
+      <input type="search" placeholder="Cari disini..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="cart-btn" class="fas fa-shopping-cart"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+    </div>
+  </header>
+  <!-- header section ends  -->
+
+  <!-- closer btn  -->
+
+  <div id="closer" class="fas fa-times"></div>
+
+  <!-- navbar  -->
+  <nav class="navbar">
+    <a href="index.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+  </nav>
+  <!-- shopping cart  -->
+  <div class="shopping-cart">
+    <div class="box">
+      <i class="fas fa-times"></i>
+      <img src="images/modern.jpg" alt="" />
+      <div class="content">
+        <h3>Paket mewah</h3>
+        <span class="quantity"> 1 </span>
+        <span class="multiply"> x </span>
+        <span class="price"> Rp.5,368,000 </span>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-times"></i>
+      <img src="images/kursi mewah.jpg" alt="" />
+      <div class="content">
+        <h3>Kursi mewah</h3>
+        <span class="quantity"> 1 </span>
+        <span class="multiply"> x </span>
+        <span class="price"> Rp.871,000 </span>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-times"></i>
+      <img src="images/lampu minimalis.jpg" alt="" />
+      <div class="content">
+        <h3>Lampu minimalis</h3>
+        <span class="quantity"> 1 </span>
+        <span class="multiply"> x </span>
+        <span class="price"> Rp.231,000 </span>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-times"></i>
+      <img src="images/lemari2.jpg" alt="" />
+      <div class="content">
+        <h3>lemari remaja</h3>
+        <span class="quantity"> 1 </span>
+        <span class="multiply"> x </span>
+        <span class="price"> Rp.659,000 </span>
+      </div>
+    </div>
+
+    <h3 class="total">total : <span>Rp.7,165,000</span></h3>
+
+    <a href="#" class="btn">checkout</a>
+  </div>
+  <!-- login form  -->
+  <div class="login-form">
+    <form action="">
+      <h3>login form</h3>
+      <input type="email" placeholder="email address" class="box" />
+      <input type="password" placeholder="password" class="box" />
+      <div class="remember">
+        <input type="checkbox" name="" id="remember-me" />
+        <label for="remember-me">remember me</label>
+      </div>
+      <input type="submit" value="login now" class="btn" />
+      <p>forget password? <a href="#">click here</a></p>
+      <p>new here? <a href="#">create account</a></p>
+    </form>
+  </div>
+
+  <section class="heading">
+    <h3>Blog</h3>
+    <p><a href="index.html">home</a> / <span>blog</span></p>
+  </section>
+
+  <section class="blog">
+    <h1 class="title"><span>Blog kami</span> <a href="#">Lihat semua >></a></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="images/modern.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Serba mewah...</h3>
+          <p>
+            kami sarankan anda, untuk membeli paket mewah. supaya rumah anda
+            menjadi lebih indah, dan kluarga anda bahagia
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons">
+            <a href="#"> <i class="fas fa-calendar"></i> 26 Mei, 2023 </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/bed.avif" alt="" />
+        </div>
+        <div class="content">
+          <h3>Bed </h3>
+          <p>
+            Kasur yang kami sarankan untuk anda, supaya tidur anda menjadi
+            nyenyak. dan kluarga anda bisa lebih bahagia
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons">
+            <a href="#"> <i class="fas fa-calendar"></i> 12 Januari, 2023 </a>
+            <a href="#"> <i class="fas fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/wastafel.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Wastafel </h3>
+          <p>
+            Kelebihan dari wastafel ini adalah hemat ruang dan memberikan
+            kesan yang elegan, dan dengan harga ter jangkau
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons">
+            <a href="#"> <i class="fas fa-calendar"></i> 23 juni, 2023 </a>
+            <a href="#"> <i class="fas fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/lemari tv.avif" alt="" />
+        </div>
+        <div class="content">
+          <h3>Meja Tv</h3>
+          <p>
+            Meja TV model minimalis adalah produk yang dijual tidak terlalu mahal. 
+            Bagi Anda yang baru saja membeli rumah
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons">
+            <a href="#"> <i class="fas fa-calendar"></i> 01 jui, 2023 </a>
+            <a href="#"> <i class="fas fa-user"></i> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/meja makan.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Meja makan</h3>
+          <p>
+            Meja makan yang tepat bisa membantu melengkapi ruang makan
+            atau ruang keluarga yang nyaman dan menyenangkan
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons">
+            <a href="#"> <i class="fas fa-calendar"></i> 15 agustus, 2023 </a>
+            <a href="#"> <i class="fas fa-user"></i> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/blog-6.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Sofa</h3>
+          <p>
+            Kami paham kalau anda pasti suka bekerja sambil menyantap
+            makanan dengan santai, dan menonton TV
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons">
+            <a href="#"> <i class="fas fa-calendar"></i> 05 april, 2023 </a>
+            <a href="#"> <i class="fas fa-user"></i> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section  -->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Menu</h3>
+        <a href="index.html"> <i class="fas fa-arrow-right"></i> home</a>
+        <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+        <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+        <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+        <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+      </div>
+
+
+      <div class="box">
+        <h3>Sosial media</h3>
+        <a href="https://www.facebook.com/vikry.pallazo"> <i class="fab fa-facebook-f"></i> facebook</a>
+        <a href="https://instagram.com/vixrry?igshid=OGQ5ZDc2ODk2ZA=="> <i class="fab fa-instagram"></i> instagram</a>
+        <a href="https://tiktok.com/@vixryy_"> <i class="fa-brands fa-tiktok"></i> Tik tok</a>
+        <a href="https://wa.me/+6285797329787"> <i class="fa-brands fa-whatsapp"></i> +6285797329787</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="credit">created by | vikry aditya</section>
+  <script src="app.js"></script>
+</body>
+
+</html>
